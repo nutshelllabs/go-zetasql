@@ -3,10 +3,10 @@ package zetasql
 import (
 	"unsafe"
 
-	internal "github.com/goccy/go-zetasql/internal/ccall/go-zetasql"
-	"github.com/goccy/go-zetasql/internal/helper"
-	"github.com/goccy/go-zetasql/resolved_ast"
-	"github.com/goccy/go-zetasql/types"
+	internal "github.com/nutshelllabs/go-zetasql/internal/ccall/go-zetasql"
+	"github.com/nutshelllabs/go-zetasql/internal/helper"
+	"github.com/nutshelllabs/go-zetasql/resolved_ast"
+	"github.com/nutshelllabs/go-zetasql/types"
 )
 
 // LanguageOptions contains options controlling the language that should be

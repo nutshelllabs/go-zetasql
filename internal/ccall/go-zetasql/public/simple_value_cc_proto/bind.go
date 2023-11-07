@@ -17,5 +17,5 @@ package simple_value_cc_proto
 */
 import "C"
 import (
-	_ "github.com/goccy/go-zetasql/internal/ccall/go-protobuf/protobuf"
+	_ "github.com/nutshelllabs/go-zetasql/internal/ccall/go-protobuf/protobuf"
 )

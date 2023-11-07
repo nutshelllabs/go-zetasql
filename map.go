@@ -3,9 +3,9 @@ package zetasql
 import (
 	"unsafe"
 
-	"github.com/goccy/go-zetasql/ast"
-	"github.com/goccy/go-zetasql/resolved_ast"
-	"github.com/goccy/go-zetasql/types"
+	"github.com/nutshelllabs/go-zetasql/ast"
+	"github.com/nutshelllabs/go-zetasql/resolved_ast"
+	"github.com/nutshelllabs/go-zetasql/types"
 )
 
 type NodeMap struct {

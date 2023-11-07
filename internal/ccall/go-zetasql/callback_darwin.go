@@ -36,7 +36,7 @@ import (
 	"runtime/cgo"
 	"unsafe"
 
-	_ "github.com/goccy/go-zetasql/internal/ccall/go-absl/time/go_internal/cctz/time_zone"
+	_ "github.com/nutshelllabs/go-zetasql/internal/ccall/go-absl/time/go_internal/cctz/time_zone"
 )
 
 type GoCatalog struct {

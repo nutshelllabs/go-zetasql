@@ -4,8 +4,8 @@ import "C"
 import (
 	"unsafe"
 
-	internal "github.com/goccy/go-zetasql/internal/ccall/go-zetasql"
-	"github.com/goccy/go-zetasql/internal/helper"
+	internal "github.com/nutshelllabs/go-zetasql/internal/ccall/go-zetasql"
+	"github.com/nutshelllabs/go-zetasql/internal/helper"
 )
 
 // FormatSQL formats ZetaSQL statements.

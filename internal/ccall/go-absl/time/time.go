@@ -1,5 +1,5 @@
 package time
 
 import (
-	_ "github.com/goccy/go-zetasql/internal/ccall/go-absl/time/time"
+	_ "github.com/nutshelllabs/go-zetasql/internal/ccall/go-absl/time/time"
 )

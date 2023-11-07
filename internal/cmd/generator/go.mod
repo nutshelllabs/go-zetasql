@@ -1,4 +1,4 @@
-module github.com/goccy/go-zetasql/internal/cmd/generator
+module github.com/nutshelllabs/go-zetasql/internal/cmd/generator
 
 go 1.17
 

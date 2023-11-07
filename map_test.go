@@ -3,9 +3,9 @@ package zetasql_test
 import (
 	"testing"
 
-	"github.com/goccy/go-zetasql"
-	"github.com/goccy/go-zetasql/resolved_ast"
-	"github.com/goccy/go-zetasql/types"
+	"github.com/nutshelllabs/go-zetasql"
+	"github.com/nutshelllabs/go-zetasql/resolved_ast"
+	"github.com/nutshelllabs/go-zetasql/types"
 )
 
 func TestNodeMap(t *testing.T) {

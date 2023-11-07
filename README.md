@@ -1,7 +1,7 @@
 # go-zetasql
 
-![Go](https://github.com/goccy/go-zetasql/workflows/Go/badge.svg)
-[![GoDoc](https://godoc.org/github.com/goccy/go-zetasql?status.svg)](https://pkg.go.dev/github.com/goccy/go-zetasql?tab=doc)
+![Go](https://github.com/nutshelllabs/go-zetasql/workflows/Go/badge.svg)
+[![GoDoc](https://godoc.org/github.com/nutshelllabs/go-zetasql?status.svg)](https://pkg.go.dev/github.com/nutshelllabs/go-zetasql?tab=doc)
 
 Go bindings for [ZetaSQL](https://github.com/google/zetasql)
 
@@ -10,7 +10,7 @@ ZetaSQL can parse all queries related to Cloud Spanner and BigQuery. This functi
 # Features
 
 - No need to install ZetaSQL library
-  - go-zetasql contains all the source code needed to build ZetaSQL and builds at `go get github.com/goccy/go-zetasql` timing. Therefore, there is no need to install dependent libraries separately.
+  - go-zetasql contains all the source code needed to build ZetaSQL and builds at `go get github.com/nutshelllabs/go-zetasql` timing. Therefore, there is no need to install dependent libraries separately.
 
 - Can create a portable single binary even though it using cgo
   - You can create a static binary even with `CGO_ENABLED=1` by specifying the following options at build time: `--ldflags '-extldflags "-static"'`
@@ -45,7 +45,7 @@ Also, the compiler recommends `clang++`. Please set `CXX=clang++` to install.
 # Installation
 
 ```
-go get github.com/goccy/go-zetasql
+go get github.com/nutshelllabs/go-zetasql
 ```
 
 The first time you run it, it takes time to build all the ZetaSQL code used by go-zetasql.
@@ -58,8 +58,8 @@ The first time you run it, it takes time to build all the ZetaSQL code used by g
 package main
 
 import (
-  "github.com/goccy/go-zetasql"
-  "github.com/goccy/go-zetasql/ast"
+  "github.com/nutshelllabs/go-zetasql"
+  "github.com/nutshelllabs/go-zetasql/ast"
 )
 
 func main() {
@@ -82,8 +82,8 @@ package main
 import (
   "fmt"
 
-  "github.com/goccy/go-zetasql"
-  "github.com/goccy/go-zetasql/ast"
+  "github.com/nutshelllabs/go-zetasql"
+  "github.com/nutshelllabs/go-zetasql/ast"
 )
 
 func main() {
@@ -113,9 +113,9 @@ package main
 import (
   "fmt"
 
-  "github.com/goccy/go-zetasql"
-  "github.com/goccy/go-zetasql/resolved_ast"
-  "github.com/goccy/go-zetasql/types"
+  "github.com/nutshelllabs/go-zetasql"
+  "github.com/nutshelllabs/go-zetasql/resolved_ast"
+  "github.com/nutshelllabs/go-zetasql/types"
 )
 
 func main() {

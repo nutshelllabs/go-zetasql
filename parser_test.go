@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/goccy/go-zetasql"
-	"github.com/goccy/go-zetasql/ast"
+	"github.com/nutshelllabs/go-zetasql"
+	"github.com/nutshelllabs/go-zetasql/ast"
 )
 
 func TestParser(t *testing.T) {

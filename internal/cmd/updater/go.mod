@@ -1,4 +1,4 @@
-module github.com/goccy/go-zetasql/internal/cmd/updater
+module github.com/nutshelllabs/go-zetasql/internal/cmd/updater
 
 go 1.17
 

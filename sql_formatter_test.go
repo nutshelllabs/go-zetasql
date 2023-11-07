@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/goccy/go-zetasql"
+	"github.com/nutshelllabs/go-zetasql"
 )
 
 func TestSQLFormatter(t *testing.T) {

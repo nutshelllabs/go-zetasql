@@ -4,7 +4,7 @@ import (
 	"embed"
 	"log"
 
-	"github.com/goccy/go-zetasql/internal/cmd/generator/pkg"
+	"github.com/nutshelllabs/go-zetasql/internal/cmd/generator/pkg"
 )
 
 //go:embed templates/*.tmpl

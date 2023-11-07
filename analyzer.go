@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/goccy/go-zetasql/ast"
-	internal "github.com/goccy/go-zetasql/internal/ccall/go-zetasql"
-	"github.com/goccy/go-zetasql/internal/helper"
-	"github.com/goccy/go-zetasql/resolved_ast"
-	"github.com/goccy/go-zetasql/types"
+	"github.com/nutshelllabs/go-zetasql/ast"
+	internal "github.com/nutshelllabs/go-zetasql/internal/ccall/go-zetasql"
+	"github.com/nutshelllabs/go-zetasql/internal/helper"
+	"github.com/nutshelllabs/go-zetasql/resolved_ast"
+	"github.com/nutshelllabs/go-zetasql/types"
 )
 
 import "C"

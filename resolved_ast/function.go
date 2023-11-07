@@ -3,8 +3,8 @@ package resolved_ast
 import (
 	"unsafe"
 
-	internal "github.com/goccy/go-zetasql/internal/ccall/go-zetasql"
-	"github.com/goccy/go-zetasql/internal/helper"
+	internal "github.com/nutshelllabs/go-zetasql/internal/ccall/go-zetasql"
+	"github.com/nutshelllabs/go-zetasql/internal/helper"
 )
 
 // FunctionCallInfo contains custom information about a particular function call.

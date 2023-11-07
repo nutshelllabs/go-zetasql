@@ -3,9 +3,9 @@ package zetasql_test
 import (
 	"testing"
 
-	"github.com/goccy/go-zetasql"
-	ast "github.com/goccy/go-zetasql/resolved_ast"
-	"github.com/goccy/go-zetasql/types"
+	"github.com/nutshelllabs/go-zetasql"
+	ast "github.com/nutshelllabs/go-zetasql/resolved_ast"
+	"github.com/nutshelllabs/go-zetasql/types"
 )
 
 func TestAnalyzer(t *testing.T) {

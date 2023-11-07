@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/goccy/go-zetasql/types"
+	"github.com/nutshelllabs/go-zetasql/types"
 )
 
 func TestCatalog(t *testing.T) {

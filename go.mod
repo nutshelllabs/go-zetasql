@@ -1,3 +1,3 @@
-module github.com/goccy/go-zetasql
+module github.com/nutshelllabs/go-zetasql
 
 go 1.17
