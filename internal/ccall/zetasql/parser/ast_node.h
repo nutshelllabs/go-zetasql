@@ -99,6 +99,8 @@ class ASTNode : public zetasql_base::ArenaOnlyGladiator {
   const ASTNode* child(int i) const { return children_[i]; }
   ASTNode* mutable_child(int i) { return children_[i]; }
 
+  void SetChild(ASTNode* child, int i) { children_[i] = child; }
+
   // Returns the index of the first child of a node kind or -1 if not found.
   int find_child_index(ASTNodeKind kind) const {
     for (int i = 0; i < children_.size(); i++) {

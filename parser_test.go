@@ -51,6 +51,15 @@ func TestParser(t *testing.T) {
 				fmt.Println("value = ", val)
 			}
 		}
+
+		oneEqOne, _ := zetasql.ParseStatement("SELECT 1 = 1", nil)
+		fmt.Printf("SELECT 1 = 1: %s\n", oneEqOne.DebugString(99))
+
+    oneEqOneQuery := oneEqOne.(*ast.QueryStatementNode)
+    oneEqOneSelect := oneEqOneQuery.Query().QueryExpr().(*ast.SelectNode)
+    // oneEqOneSelect.DebugString(1)
+		whereClause.SetChild(oneEqOneSelect.SelectList().Columns()[0], 0)
+		fmt.Printf("New original statement: %s\n", stmt.DebugString(99))
 	}
 }
 

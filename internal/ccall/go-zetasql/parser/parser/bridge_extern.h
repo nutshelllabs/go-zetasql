@@ -23,6 +23,7 @@ extern void GO_EXPORT(ASTNode_set_parent)(void * arg0,void * arg1);
 extern void GO_EXPORT(ASTNode_parent)(void * arg0,void ** arg1);
 extern void GO_EXPORT(ASTNode_AddChildren)(void * arg0,void * arg1);
 extern void GO_EXPORT(ASTNode_AddChild)(void * arg0,void * arg1);
+extern void GO_EXPORT(ASTNode_SetChild)(void * arg0,void * arg1,int arg2);
 extern void GO_EXPORT(ASTNode_AddChildFront)(void * arg0,void * arg1);
 extern void GO_EXPORT(ASTNode_num_children)(void * arg0,int* arg1);
 extern void GO_EXPORT(ASTNode_child)(void * arg0,int arg1,void ** arg2);

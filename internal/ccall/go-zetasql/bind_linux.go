@@ -712,6 +712,18 @@ func zetasql_ASTNode_AddChild(arg0 unsafe.Pointer, arg1 unsafe.Pointer) {
 	C.export_zetasql_ASTNode_AddChild(arg0, arg1)
 }
 
+func ASTNode_SetChild(arg0 unsafe.Pointer, arg1 unsafe.Pointer, arg2 int) {
+	zetasql_ASTNode_SetChild(
+		arg0,
+		arg1,
+		arg2,
+	)
+}
+
+func zetasql_ASTNode_SetChild(arg0 unsafe.Pointer, arg1 unsafe.Pointer, arg2 int) {
+	C.export_zetasql_ASTNode_SetChild(arg0, arg1, C.int(arg2))
+}
+
 func ASTNode_AddChildFront(arg0 unsafe.Pointer, arg1 unsafe.Pointer) {
 	zetasql_ASTNode_AddChildFront(
 		arg0,

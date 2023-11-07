@@ -181,6 +181,13 @@ void GO_EXPORT(ASTNode_AddChild)(void * arg0,void * arg1)
   node->AddChild(a1);
 }
 
+void GO_EXPORT(ASTNode_SetChild)(void * arg0,void * arg1,int arg2)
+{
+  zetasql::ASTNode *node = (zetasql::ASTNode *)arg0;
+  zetasql::ASTNode *a1 = (zetasql::ASTNode *)arg1;
+  node->SetChild(a1, arg2);
+}
+
 void GO_EXPORT(ASTNode_AddChildFront)(void * arg0,void * arg1)
 {
   zetasql::ASTNode *node = (zetasql::ASTNode *)arg0;

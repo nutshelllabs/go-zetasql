@@ -23,6 +23,7 @@ type Node interface {
 	Parent() Node
 	AddChild(Node)
 	AddChildFront(Node)
+	SetChild(Node, int)
 	FindChildIndex(Kind) int
 	DebugString(int) string
 	MoveStartLocation(int)
@@ -165,6 +166,10 @@ func (n *BaseNode) Parent() Node {
 
 func (n *BaseNode) AddChild(child Node) {
 	internal.ASTNode_AddChild(n.getRaw(), child.getRaw())
+}
+
+func (n *BaseNode) SetChild(child Node, i int) {
+	internal.ASTNode_SetChild(n.getRaw(), child.getRaw(), i)
 }
 
 func (n *BaseNode) AddChildFront(child Node) {
